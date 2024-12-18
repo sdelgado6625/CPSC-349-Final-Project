@@ -1,7 +1,6 @@
-/* General styling for the Contact Page */
 .contact-page {
     padding: 2rem;
-    background-color: #f9f9f9; /* Light background */
+    background-color: #f9f9f9; 
     color: #333;
     font-family: 'Barlow', sans-serif;
   }

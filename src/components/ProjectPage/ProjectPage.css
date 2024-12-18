@@ -1,12 +1,9 @@
-/* General styling for the Projects Page */
 .projects-page {
     padding: 2rem;
-    background-color: #f9f9f9; /* Light background to match the About page */
+    background-color: #f9f9f9; 
     color: #333;
-    font-family: 'Barlow', sans-serif; /* Use the same font as the About page */
+    font-family: 'Barlow', sans-serif;
   }
-  
-  /* Page header */
   .projects-page h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -14,22 +11,19 @@
     color: #222;
   }
   
-  /* Project card layout */
   .projects-list {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
   
-  /* Individual project cards */
   .project-card {
-    background-color: white; /* White background for consistency with the About page */
+    background-color: white; 
     padding: 1.5rem;
     border-radius: 8px;
-    border: 2px solid #ddd; /* Light border for a clean look */
+    border: 2px solid #ddd; 
   }
   
-  /* Project title */
   .project-card h2 {
     font-size: 1.8rem;
     color: #444;
@@ -38,7 +32,6 @@
     padding-bottom: 0.5rem;
   }
   
-  /* Project description */
   .project-card p {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -46,7 +39,6 @@
     color: #555;
   }
   
-  /* Button to show/hide additional details */
   .project-card button {
     background-color: #333;
     color: white;
@@ -59,12 +51,10 @@
     margin-top: 1rem;
   }
   
-  /* No hover effect for button */
   .project-card button:hover {
-    background-color: #8b0000; /* Dark red hover effect */
+    background-color: #8b0000;
   }
   
-  /* Expanded project details */
   .project-details {
     margin-top: 1rem;
   }

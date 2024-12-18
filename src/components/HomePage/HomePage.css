@@ -1,19 +1,18 @@
-/* General styling for the intro section */
 .intro-section {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: rgba(248, 248, 248, 0.8); /* Light background with some transparency for overlay effect */
-  min-height: 83.5vh; /* Full viewport height */
-  background-image: url('../../assets/bk.jpg'); /* Add your background image */
-  background-size: cover; /* Make the background cover the whole section */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent the background from repeating */
-  position: relative; /* For overlay positioning */
+  background-color: rgba(248, 248, 248, 0.8); 
+  min-height: 83.5vh; 
+  background-image: url('../../assets/bk.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: relative; 
 }
 
-/* Optional background overlay */
+
 .intro-section::before {
   content: '';
   position: absolute;
@@ -21,42 +20,39 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  z-index: -1; /* Ensure overlay stays behind the text */
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: -1; 
 }
 
-/* Layout container for photo and text */
 .intro-content {
   display: flex;
   flex-direction: row;
-  gap: 2rem; /* Space between photo and text */
+  gap: 2rem; 
   align-items: center;
-  max-width: 900px; /* Limit width for readability */
+  max-width: 900px; 
   margin: 0 auto;
-  text-align: left; /* Align text to the left */
+  text-align: left; 
 }
 
-/* Styling for the photo */
 .photo img {
-  width: 200px; /* Desired width */
-  height: 200px; /* Desired height */
-  border-radius: 50%; /* Makes it circular */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: soft shadow for image */
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Styling for the tagline */
 .tagline {
   font-size: 2rem;
   font-weight: bold;
-  color: #fff; /* White text color for contrast */
+  color: #fff; 
   margin-bottom: 1rem;
 }
 
-/* Styling for the bio */
+
 .bio {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #fff; /* White text color for contrast */
+  color: #fff; 
 }
 
 @media (max-width: 768px) {

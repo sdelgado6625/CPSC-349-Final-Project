@@ -1,9 +1,8 @@
-/* General styling for the About Page */
 .about-page {
     padding: 2rem;
-    background-color: #f9f9f9; /* Light background */
+    background-color: #f9f9f9; 
     color: #333;
-    font-family: 'Barlow', sans-serif; /* Use the same font as the intro section */
+    font-family: 'Barlow', sans-serif;
   }
   
   /* Page header */
