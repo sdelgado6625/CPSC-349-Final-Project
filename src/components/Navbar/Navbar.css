@@ -1,0 +1,40 @@
+/* General styling for the navbar */
+.navbar {
+  background-color: #202020; /* Dark background color */
+  padding: 1rem 0; /* Vertical padding for spacing */
+  text-align: center; /* Center all content */
+  font-family: 'Barlow', sans-serif; /* Apply Barlow font */
+}
+
+/* Styling for the navigation links container */
+.nav-links {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: inline-flex; /* Display links inline */
+  gap: 2rem; /* Add spacing between links */
+}
+
+/* Styling for each link */
+.nav-links a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Default link color */
+  font-size: 1.2rem; /* Adjust font size */
+  font-weight: 600; /* Use medium weight for links */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Change link color on hover */
+.nav-links a:hover {
+  color: red; /* Hover color */
+}
+
+.navbar .name {
+  font-family: 'Barlow', sans-serif; /* Use the custom font */
+  color: white;
+  font-size: 1.1rem; /* Adjust size */
+  font-weight: 600;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}

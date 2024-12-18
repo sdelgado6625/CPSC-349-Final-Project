@@ -1,0 +1,36 @@
+/* General styling for the Skills Page */
+.skills-page {
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light background */
+    color: #333;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  /* Page header */
+  .skills-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #222;
+  }
+  
+  /* Section headers for skills categories */
+  .section h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* List of skills */
+  .section ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+    color: #555;
+  }
+  
+  .section ul li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }

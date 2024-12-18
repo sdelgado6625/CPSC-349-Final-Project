@@ -1,0 +1,89 @@
+/* General styling for the Projects Page */
+.projects-page {
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light background to match the About page */
+    color: #333;
+    font-family: 'Barlow', sans-serif; /* Use the same font as the About page */
+  }
+  
+  /* Page header */
+  .projects-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #222;
+  }
+  
+  /* Project card layout */
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  /* Individual project cards */
+  .project-card {
+    background-color: white; /* White background for consistency with the About page */
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 2px solid #ddd; /* Light border for a clean look */
+  }
+  
+  /* Project title */
+  .project-card h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Project description */
+  .project-card p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  /* Button to show/hide additional details */
+  .project-card button {
+    background-color: #333;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  /* No hover effect for button */
+  .project-card button:hover {
+    background-color: #8b0000; /* Dark red hover effect */
+  }
+  
+  /* Expanded project details */
+  .project-details {
+    margin-top: 1rem;
+  }
+  
+  .project-details img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+  }
+  
+  .project-details a {
+    color: #8b0000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-details a:hover {
+    color: #b22222;
+  }
+  
